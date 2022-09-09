@@ -7,7 +7,8 @@ img{
     height: 15rem;
 }
 
-.movie-carousel{
+
+.collection{
     display: flex;
     align-items: center;
     margin: 0 auto;
@@ -16,9 +17,26 @@ img{
     margin-top: 10rem;
     height: 20rem;
 }
+ 
 
 .movie-carousel__list{
     display: flex;
+    position: relative;
+    width: 70vw;
+    overflow-x:auto;
+    gap: 1rem;
+    margin: 0 auto;
     align-items: center;
-    margin:0 auto;
+}
+
+.arrow-slider{
+    position: absolute;
+    align-items: center;
+}
+
+.arrow-slider--left{
+    left: 0;
+}
+.arrow-slider--right{
+    right: 0;
 }
