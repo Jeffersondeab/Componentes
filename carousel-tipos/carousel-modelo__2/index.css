@@ -1,0 +1,24 @@
+ul{
+    list-style: none;
+}
+
+img{
+    width: 20rem;
+    height: 15rem;
+}
+
+.movie-carousel{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 80vw;
+    border: 1px solid black;
+    margin-top: 10rem;
+    height: 20rem;
+}
+
+.movie-carousel__list{
+    display: flex;
+    align-items: center;
+    margin:0 auto;
+}
