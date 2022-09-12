@@ -13,26 +13,47 @@ img{
     align-items: center;
     margin: 0 auto;
     width: 80vw;
-    border: 1px solid black;
     margin-top: 10rem;
     height: 20rem;
+    
+}
+ 
+
+
+.movie-carousel{
+    position: relative;
+    width: 80vw;
+    align-items: center;
+    display: flex;
+    
 }
  
 
 .movie-carousel__list{
     display: flex;
-    position: relative;
-    width: 70vw;
     overflow-x:auto;
+    width: 70vw;
     gap: 1rem;
-    margin: 0 auto;
-    align-items: center;
+    margin: 0 auto;  
+    overflow: hidden;
+ 
 }
+
+
+.movie-carousel__item:nth-child(1){
+    margin-left: -2.3rem;
+}
+
+
 
 .arrow-slider{
     position: absolute;
     align-items: center;
-}
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+} 
 
 .arrow-slider--left{
     left: 0;
