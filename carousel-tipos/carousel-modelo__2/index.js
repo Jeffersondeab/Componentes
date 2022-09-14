@@ -44,7 +44,7 @@ A OUTRA PARTE DOS CAROUSEIS */
 const setVisibleSlide = (slideIndex) =>{
     const centerPosition = getCenterPosition(slideIndex)
     state.currentItemIndex = slideIndex
-    translateSlide(centerPosition)
+/*   translateSlide(centerPosition) */
     animateTransition(true)
 }
 
@@ -79,7 +79,6 @@ const onMouseMove = (event) =>{
     state.movement = event.clientX - state.mouseDownPosition
     const position = event.clientX - state.currentSlidePosition
     translateSlide(position)
-
 }
 
 const onMouseUp = (event) =>{

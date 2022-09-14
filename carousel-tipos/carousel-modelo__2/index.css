@@ -11,11 +11,11 @@ img{
 .collection{
     display: flex;
     align-items: center;
+    overflow: hidden;
     margin: 0 auto;
     width: 80vw;
     margin-top: 10rem;
     height: 20rem;
-    
 }
  
 
@@ -25,18 +25,14 @@ img{
     width: 80vw;
     align-items: center;
     display: flex;
-    
 }
  
 
 .movie-carousel__list{
     display: flex;
-    overflow-x:auto;
     width: 70vw;
     gap: 1rem;
     margin: 0 auto;  
- 
- 
 }
 
 
