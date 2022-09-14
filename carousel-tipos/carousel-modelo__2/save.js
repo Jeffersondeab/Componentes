@@ -42,10 +42,10 @@ const animateTransition = (active) => {
 A OUTRA PARTE DOS CAROUSEIS */
 
 const setVisibleSlide = (slideIndex) =>{
-     
-   /*  state.currentItemIndex = slideIndex */
+    const centerPosition = getCenterPosition(slideIndex)
+    state.currentItemIndex = slideIndex
 /*   translateSlide(centerPosition) */
-    /* animateTransition(true) */
+    animateTransition(true)
 }
 
 const backwardSlide = () => {
@@ -90,13 +90,16 @@ const onMouseUp = (event) =>{
         setVisibleSlide(state.currentItemIndex)
     }
 
+
     const item = event.currentTarget
     item.removeEventListener('mousemove', onMouseMove)
+
 }
 
 const onMouseLeave = (event) =>{
     const item = event.currentTarget
     item.removeEventListener('mousemove', onMouseMove)
+
 }
 
 const setListeners = () =>{
@@ -123,21 +126,3 @@ const init = () => {
 export default{
     init
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
