@@ -21,14 +21,7 @@ const translateSlide = (position) =>{
     carouselList.style.transform = `translateX(${position}px)`
 }
 
-const getCenterPosition = (slideindex) =>{
-    const item = carouselItems[state.currentItemIndex]
-    const itemWidth = item.offsetWidth
-    const bodyWidth = document.body.clientWidth
-    const slideWidth = itemWidth * 5
-    const margin = bodyWidth - slideWidth
-    return margin - (itemWidth * slideindex)
-}
+ 
 
 const animateTransition = (active) => {
     if(active){
@@ -38,14 +31,8 @@ const animateTransition = (active) => {
     }
 }
 
-/* O SETVISIBLE FAZ COM QUE O CAROUSEL PULE PARA
-A OUTRA PARTE DOS CAROUSEIS */
-
 const setVisibleSlide = (slideIndex) =>{
-     
-   /*  state.currentItemIndex = slideIndex */
-/*   translateSlide(centerPosition) */
-    /* animateTransition(true) */
+
 }
 
 const backwardSlide = () => {
@@ -54,8 +41,8 @@ const backwardSlide = () => {
     }else{
         setVisibleSlide(state.currentItemIndex)
     }
-    
 }
+
 const forwardSlide = () => {
     const lastItemIndex = carouselItems.length - 1
     const lastSlideIndex = Math.floor(lastItemIndex / 5)

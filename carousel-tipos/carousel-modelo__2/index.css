@@ -7,21 +7,26 @@ img{
     height: 15rem;
 }
 
+.collections{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
 
 .collection{
     display: flex;
     align-items: center;
-    overflow: hidden;
     margin: 0 auto;
     width: 80vw;
     margin-top: 10rem;
     height: 20rem;
+    overflow: hidden;
 }
  
 
 
 .movie-carousel{
-    position: relative;
     width: 80vw;
     align-items: center;
     display: flex;
