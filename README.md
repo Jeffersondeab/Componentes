@@ -1,3 +1,3 @@
 # Componentes
 
-<a href="teste.html">TTeste</a>
+<a href="teste.html">Teste</a>
