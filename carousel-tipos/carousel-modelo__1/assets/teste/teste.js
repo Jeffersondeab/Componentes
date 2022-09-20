@@ -123,8 +123,11 @@ export default{
 
 
 
+/* REPAREI DE CODAR EM 24:30 */
+/* 35 minutos momento em que mostra os if 150 */
 
-
+/* TENTAR CONSERTAR AS SETAS UTILIZANDO 
+OS CONTROLS MAS DENTRO  */
 
 
 /*  
