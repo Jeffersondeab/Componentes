@@ -19,7 +19,7 @@ const preventDefault = (event) =>{
 
 
 const translateSlide = (position) =>{
-     state.lastTranslatePosition = position
+    state.lastTranslatePosition = position
     gallery.style.transform = `translateX(${position}px)`
 }
 
@@ -40,6 +40,13 @@ const onMouseMove = (event) =>{
 }
 
 const onMouseUp = (event) =>{
+
+    if(gallery > 150){
+        
+    }else{
+        state.currentSlidePosition
+    }
+
     const item = event.currentTarget
     item.removeEventListener('mousemove', onMouseMove)
     console.log('mouse up')

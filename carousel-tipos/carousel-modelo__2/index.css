@@ -11,6 +11,11 @@ img{
     display: flex;
     align-items: center;
     position: relative;
+    width: 90vw;
+    margin:0 auto;
+    border:  1px solid black;
+    margin-top: 10rem;
+    padding: 2rem;
 }
 
 
@@ -19,8 +24,6 @@ img{
     align-items: center;
     margin: 0 auto;
     width: 80vw;
-    margin-top: 10rem;
-    height: 20rem;
     overflow: hidden;
 }
  
